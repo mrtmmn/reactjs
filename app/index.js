@@ -29,7 +29,7 @@ var Link = React.createClass({
 
 var ProfileLink = React.createClass({
 	render: function () {
-		return (<Link href={'https://www.github.com/' + this.props.username}> {this.props.username} </Link>)
+		return (<Link href={'https://www.github.com/' + this.props.username} target="_top"> {this.props.username} </Link>)
 	}
 });
 
